@@ -1,0 +1,78 @@
+
+body{
+    margin: -25px;
+}
+
+
+#main{
+    margin-top: 300px;   
+}
+
+#a{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: green;
+    animation: a1 4s infinite;
+    position: absolute;
+}
+
+#b{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    animation: a2 4s infinite;
+    
+   
+}
+
+#c{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: red;
+   position: absolute;
+    animation: a3 4s infinite;
+}
+#d{   
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color:#4285F4 ;
+   position: absolute;
+    animation: a4 4s infinite;
+
+}
+
+
+@keyframes a1{
+    0%{margin-left: -3px;}
+    50%{margin-left:800px ;}
+    100%{margin-left: 1700px;}
+}
+
+@keyframes a2{
+    10%{margin-left: -3px;}
+    50%{margin-left:750px ;}
+    60%{margin-left:750px ;}
+   100%{margin-left: 1700px;}
+}
+
+@keyframes a3{
+    15%{margin-left: -3px;}
+    50%{margin-left:700px ;}
+    65%{margin-left:700px ;}
+    100%{margin-left: 1700px;}
+}
+
+@keyframes a4{
+    20%{margin-left: -3px;}
+    50%{margin-left:650px ;}
+    70%{margin-left:650px ;}
+    100%{margin-left: 1700px;}
+}
+
+
+
